@@ -5,7 +5,7 @@ class Header extends HTMLElement {
         <header>
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
                 <div class="container-fluid">
-                    <a class="navbar-brand mb-0 h1" href="https://www.unomaha.edu/index.php">
+                    <a class="navbar-brand mb-0 header-text" href="https://www.unomaha.edu/index.php">
                         <img class="d-inline-block align-top" src="images/logo.png" width="30" height="30" alt="UNO logo">
                         | UNIVERSITY OF NEBRASKA OMAHA
                     </a>
