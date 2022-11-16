@@ -39,67 +39,65 @@ customElements.define('template-header', Header)
 class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <footer class="text-center text-lg-start bg-light text-secondary p-1">
-            <section class="">
-                <div class="container text-start">
-                    <div class="row mt-3">
-                        <div class="col-sm-12 col-lg-4">
-                            <h6 class="text-uppercase fw-bold mb-4">Assurance of Data Quality</h6>
-                            <p>
-                                We seek to assure complete and accurate data by:
-                                <ul>
-                                    <li>Definition of terms</li>
-                                    <li>Careful labeling of all data variables</li>
-                                    <li>Data checks for out of range entries</li>
-                                    <li>Cross comparisons with other data sets</li>
-                                    <li>Regular review of how external agencies define important data items</li>
-                                </ul>
-                            </p>
-                        </div>
-
-                        <div class="col-sm-12 col-lg-4">
-                            <h6 class="text-uppercase fw-bold mb-4">Related Sites</h6>
-                            <p>
-                                <a href="https://www.hlcommission.org/About-HLC/about-hlc.html" class="text-reset"
+        <footer class="text-lg-start bg-light text-secondary p-1">
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="col-sm-12 col-lg-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Assurance of Data Quality</h6>
+                        <p>
+                            We seek to assure complete and accurate data by:
+                        <ul>
+                            <li>Definition of terms</li>
+                            <li>Careful labeling of all data variables</li>
+                            <li>Data checks for out of range entries</li>
+                            <li>Cross comparisons with other data sets</li>
+                            <li>Regular review of how external agencies define important data items</li>
+                        </ul>
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Related Sites</h6>
+                        <p>
+                            <a href="https://www.hlcommission.org/About-HLC/about-hlc.html" class="text-reset"
                                 target="_blank" rel="noopener noreferrer">
                                 Higher Learning Commission</a>
-                            </p>
-                            <p>
-                                <a href="https://www.airweb.org/" class="text-reset" target="_blank" rel="noopener noreferrer">
+                        </p>
+                        <p>
+                            <a href="https://www.airweb.org/" class="text-reset" target="_blank" rel="noopener noreferrer">
                                 Association for Institutional Research</a>
-                            </p>
-                            <p>
-                                <a href="http://www.cumuonline.org/" class="text-reset" target="_blank" rel="noopener noreferrer">
+                        </p>
+                        <p>
+                            <a href="http://www.cumuonline.org/" class="text-reset" target="_blank"
+                                rel="noopener noreferrer">
                                 Coalition of Urban and Metropolitan Universities</a>
-                            </p>
-                            <p>
-                                <a href="https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html"
-                                    class="text-reset" target="_blank" rel="noopener noreferrer">
-                                    Family Educational Rights and Privacy Act (FERPA)</a>
-                            </p>
-                            <p>
-                                <a href="https://nces.ed.gov/ipeds/" class="text-reset" target="_blank" rel="noopener noreferrer">
+                        </p>
+                        <p>
+                            <a href="https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html" class="text-reset"
+                                target="_blank" rel="noopener noreferrer">
+                                Family Educational Rights and Privacy Act (FERPA)</a>
+                        </p>
+                        <p>
+                            <a href="https://nces.ed.gov/ipeds/" class="text-reset" target="_blank"
+                                rel="noopener noreferrer">
                                 Integrated Postsecondary Education Data System (IPEDS)</a>
-                            </p>
-                        </div>
-
-                        <div class="col-sm-12 col-lg-4">
-                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                            <p><i class="bi bi-telephone"></i> 402-554-2407</p>
-                            <p><i class="bi bi-envelope"></i> sida@unomaha.edu</p>
-                            <p><i class="bi bi-geo-alt"></i> 6001 University Drive</p>
-                            <p><i class="bi bi-pin-map"></i> Omaha, Nebraska 68132</p>
-                            <p><i class="bi bi-building"></i> 106 Eppley Administration Building</p>
-                            <p><i class="bi bi-search"></i>
+                        </p>
+                    </div>
+                    <div class="col-sm-12 col-lg-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="bi bi-telephone"></i> 402-554-2407</p>
+                        <p><i class="bi bi-envelope"></i> sida@unomaha.edu</p>
+                        <p><i class="bi bi-geo-alt"></i> 6001 University Drive</p>
+                        <p><i class="bi bi-pin-map"></i> Omaha, Nebraska 68132</p>
+                        <p><i class="bi bi-building"></i> 106 Eppley Administration Building</p>
+                        <p><i class="bi bi-search"></i>
                             <a href="https://webapp.unomaha.edu/ticket-manager/sida/index.php" class="text-reset 
-                            target="_blank" rel="noopener noreferrer"">
-                              Request form for special reports or data</a>
-                            </p>
-                        </div>
+                        target=" _blank" rel="noopener noreferrer"">
+                        Request form for special reports or data</a>
+                        </p>
                     </div>
                 </div>
-            </section>
-        </footer>
+            </div>
+        </footer>      
         `
     }
 }
