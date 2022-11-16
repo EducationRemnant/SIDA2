@@ -53,6 +53,10 @@ body::before {
     background-repeat: no-repeat;
 }
 
+.header-short {
+    display: none;
+}
+
 @media only screen and (max-width: 576px) {
     .carousel-item {
         background-size: 80%;
@@ -60,6 +64,14 @@ body::before {
 
     .header-text {
         font-size: medium;
+    }
+
+    .header-long {
+        display: none;
+    }
+
+    .header-short {
+        display: inline-block;
     }
 }
 
