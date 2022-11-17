@@ -10,12 +10,11 @@ body::before {
 
 /* Navigation Bar */
 .navbar {
-    border-bottom: 3px solid #b60000;
+    border-bottom: 3px solid #d71920;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    background-color: rgb(221, 221, 221);
-    color: black;
+    color: white;
 }
 
 .navbar .navbar-nav .nav-link {
