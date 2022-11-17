@@ -7,11 +7,11 @@ class Header extends HTMLElement {
                 <div class="container-fluid">
                     <a class="navbar-brand mb-0 header-long" href="https://www.unomaha.edu/index.php">
                         <img class="d-inline-block align-top" src="images/logo.png" width="30" height="30" alt="UNO logo">
-                        | <img class="d-inline-block align-top" src="images/logo-big.png" height="30" alt="UNO logo">
+                        | <img class="d-inline-block align-top" src="images/logo-big.PNG" height="30" alt="UNO logo">
                     </a>
                     <a class="navbar-brand mb-0 header-short" href="https://www.unomaha.edu/index.php">
                         <img class="d-inline-block align-top" src="images/logo.png" width="30" height="30" alt="UNO logo">
-                        | <img class="d-inline-block align-top" src="images/logo-big.png" width="220" height="30" alt="UNO logo">
+                        | <img class="d-inline-block align-top" src="images/logo-big.PNG" width="220" height="30" alt="UNO logo">
                     </a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
